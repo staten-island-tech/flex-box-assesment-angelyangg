@@ -1,4 +1,15 @@
+.block1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+}
+
 body {
-  background-color: red;
+  background-color: lightpink;
 }
 /*# sourceMappingURL=style.css.map */
