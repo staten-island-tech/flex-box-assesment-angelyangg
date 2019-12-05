@@ -1,4 +1,12 @@
-.block1 {
+html {
+  font-size: 62.5%;
+  padding: 6rem;
+  margin: -6rem;
+  -webkit-box-sizing: 0rem;
+          box-sizing: 0rem;
+}
+
+.ice-cream-gallery {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6,10 +14,19 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 6rem;
+  letter-spacing: 1rem;
   position: relative;
+  top: 5rem;
 }
 
 body {
-  background-color: lightpink;
+  background-color: #ffe6ee;
 }
 /*# sourceMappingURL=style.css.map */

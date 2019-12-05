@@ -1,0 +1,24 @@
+@import "_variables.scss";
+
+html{
+    font-size: 62.5%;
+    padding: 6rem;
+    margin: -6rem;
+    box-sizing: 0rem;
+}
+.ice-cream-gallery{
+    display: flex;
+    flex-direction: row;
+}
+.row1{
+
+}
+.title {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 6rem;
+    letter-spacing: 1rem;
+    position: relative;
+    top: 5rem;
+}
