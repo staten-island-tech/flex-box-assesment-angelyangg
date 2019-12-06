@@ -1,0 +1,38 @@
+@import "_variables.scss";
+
+html{
+    font-size: 62.5%;
+    padding: 0rem;
+    margin-top: -3rem;
+    box-sizing: 0rem;
+}
+.biography{
+    margin: 6rem;
+    margin-top: 3rem;
+    margin-right: 22rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3rem;
+    position: absolute;
+    top: 151rem;
+    left: 57rem;
+    z-index: 2;
+}
+.bio2{
+    margin-top: 6rem;
+}
+.butterflypic{
+    position: relative;
+    top: -8rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 130rem;
+    filter: drop-shadow(5px 5px 5px ($darkPeach));
+    z-index: 1;
+}
+.sign{
+    display: block;
+    margin-left: 90rem;
+    margin-top: -35rem;
+    opacity: .1;
+}

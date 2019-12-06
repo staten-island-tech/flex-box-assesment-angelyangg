@@ -1,5 +1,9 @@
-@import "_row1.scss";
+@import "_gallery1.scss";
+@import "_gallery2.scss";
+@import "_titles.scss";
+@import "_bio.scss";
+@import "_variables.scss";
 
 body{
-    background-color: #e2d4d4;
+    background-color: $mainPeach;
 }
