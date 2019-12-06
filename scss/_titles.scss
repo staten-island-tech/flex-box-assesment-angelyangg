@@ -7,7 +7,6 @@ html{
     box-sizing: 0rem;
 }
 .title1 {
-    z-index: 2;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Roboto Condensed', sans-serif;
@@ -21,6 +20,7 @@ html{
     animation: mymove 3.5s infinite;
     animation-direction: alternate;
     animation-timing-function: linear;
+    z-index: 2;
 }
 @keyframes mymove {
     from {left: -3rem;}

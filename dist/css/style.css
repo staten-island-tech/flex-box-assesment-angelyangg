@@ -41,8 +41,8 @@ html {
   height: 100%;
   width: 100%;
   opacity: 0;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
   background-color: #e7c8b9;
   z-index: 3;
 }
@@ -94,7 +94,6 @@ html {
   border-left: 10px solid white;
   border-right: 10px solid white;
   border-bottom: 10px solid white;
-  z-index: 1;
 }
 
 html {
@@ -106,7 +105,6 @@ html {
 }
 
 .title1 {
-  z-index: 2;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Roboto Condensed', sans-serif;
@@ -121,6 +119,7 @@ html {
           animation-direction: alternate;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
+  z-index: 2;
 }
 
 @-webkit-keyframes mymove {
@@ -172,16 +171,57 @@ html {
   margin-left: auto;
   margin-right: auto;
   width: 130rem;
-  -webkit-filter: drop-shadow(5px 5px 5px #be9c8f);
-          filter: drop-shadow(5px 5px 5px #be9c8f);
+  -webkit-filter: drop-shadow(5px 5px 5px #e0af9b);
+          filter: drop-shadow(5px 5px 5px #e0af9b);
   z-index: 1;
 }
 
-.sign {
+.signature {
   display: block;
   margin-left: 90rem;
   margin-top: -35rem;
   opacity: .2;
+}
+
+html {
+  font-size: 62.5%;
+  padding: 0rem;
+  margin-top: -3rem;
+  -webkit-box-sizing: 0rem;
+          box-sizing: 0rem;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #f3ddd4;
+  overflow: auto;
+  position: absolute;
+  top: 0rem;
+}
+
+.navbar a {
+  float: left;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  letter-spacing: .2rem;
+  padding: 1.5rem;
+  color: black;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: white;
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #e0af9b;
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
 }
 
 body {
