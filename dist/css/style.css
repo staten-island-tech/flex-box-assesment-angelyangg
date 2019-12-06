@@ -80,7 +80,7 @@ html {
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
-  top: 53rem;
+  top: 51rem;
   left: 16.5rem;
 }
 
@@ -181,7 +181,7 @@ html {
   display: block;
   margin-left: 90rem;
   margin-top: -35rem;
-  opacity: .1;
+  opacity: .2;
 }
 
 body {
