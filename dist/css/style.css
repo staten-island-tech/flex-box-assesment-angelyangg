@@ -107,7 +107,7 @@ html {
 .title1 {
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 7rem;
   letter-spacing: 4rem;
   position: relative;
@@ -191,37 +191,46 @@ html {
           box-sizing: 0rem;
 }
 
-.navbar {
-  width: 100%;
-  background-color: #f3ddd4;
-  overflow: auto;
+#sideNavBar a {
   position: absolute;
-  top: 0rem;
-}
-
-.navbar a {
-  float: left;
-  font-family: 'Roboto Condensed', sans-serif;
-  text-align: center;
-  letter-spacing: .2rem;
-  padding: 1.5rem;
-  color: black;
+  /* Position them relative to the browser window */
+  left: -3rem;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  padding: 2rem;
+  width: 12rem;
   text-decoration: none;
   font-size: 2rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: end;
+  color: black;
+  border-radius: 0 1rem 1rem 0;
+  /* Rounded corners on the top right and bottom right side */
 }
 
-/* Navbar links on mouse-over */
-.navbar a:hover {
-  background-color: white;
-  -webkit-transition: .4s ease;
-  transition: .4s ease;
+#sideNavBar a:hover {
+  left: 0;
+  /* On mouse-over, make the elements appear as they should */
 }
 
-/* Current/active navbar link */
-.active {
+#home {
+  top: 1rem;
+  background-color: #f3ddd4;
+}
+
+#instagram {
+  top: 8rem;
   background-color: #e0af9b;
-  -webkit-transition: .4s ease;
-  transition: .4s ease;
+}
+
+#twitter {
+  top: 15rem;
+  background-color: #f3ddd4;
+}
+
+#youtube {
+  top: 22rem;
+  background-color: #e0af9b;
 }
 
 body {

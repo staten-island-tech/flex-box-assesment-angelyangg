@@ -1,0 +1,44 @@
+@import "_variables.scss";
+
+html{
+    font-size: 62.5%;
+    padding: 0rem;
+    margin-top: -3rem;
+    box-sizing: 0rem;
+}
+#sideNavBar a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -3rem; 
+  transition: 0.2s; 
+  padding: 2rem;
+  width: 12rem; 
+  text-decoration: none; 
+  font-size: 2rem; 
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: end;
+  color: black; 
+  border-radius: 0 1rem 1rem 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#sideNavBar a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+#home {
+  top: 1rem;
+  background-color: $lightPeach;
+}
+
+#instagram {
+  top: 8rem;
+  background-color: $darkPeach;
+}
+
+#twitter {
+  top: 15rem;
+  background-color: $lightPeach; 
+}
+
+#youtube {
+  top: 22rem;
+  background-color: $darkPeach;
+}

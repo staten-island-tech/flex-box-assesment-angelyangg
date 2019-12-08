@@ -4,8 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=League+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=League+Script|Noto+Sans|Quicksand|Roboto+Condensed:400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="css/img/Logo.png"/>
     <title>Halsey</title>
@@ -59,13 +58,14 @@
             artist. The self-described blend of "angry dark music," was teased by a
             livestream in September 2019, before its release early the following year. </p>
     </div>
-    <div class="navbar">
-    <script src="https://kit.fontawesome.com/d80864da72.js" crossorigin="anonymous"></script>
-      <a class="active" href="#"> <i class="fa fa-fw fa-home"></i> Home</a> 
-      <a href="#"> <i class="fab fa-instagram"></i> Instagram</a> 
-      <a href="#"> Twitter</a> 
-      <a href="#"> Spotify</a>
-      <a href="#"> YouTube</a>
+    <div id="sideNavBar" class="navBar">
+        <script src="https://kit.fontawesome.com/d80864da72.js" crossorigin="anonymous"></script>
+        <a id="home" class="home" href="#" onclick="window.location.href = 'https://www.youtube.com/watch?v=ykLDTsfnE5A';">Home <i class="fas fa-home"></i></a>
+        <a id="instagram" href="#" onclick="window.location.href = 'https://www.instagram.com/iamhalsey/';">Instagram <i class="fab fa-instagram"></i></a> 
+        <a id="twitter" href="#" onclick="window.location.href = 'https://twitter.com/Halsey';">Twitter <i class="fab fa-twitter"></i></a> 
+        <a id="youtube" href="#" onclick="window.location.href = 'https://www.youtube.com/channel/UCOCgB3xd-B-1qAm-hR9OLrA';">YouTube <i class="fab fa-youtube"></i> </a>
+        <!-- Some of these IDs or classes may not be in current use because I switch between
+            sideNavBar and navbar -->
     </div>
 </body>
 </html>

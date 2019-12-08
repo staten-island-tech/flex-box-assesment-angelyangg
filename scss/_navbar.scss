@@ -6,7 +6,7 @@ html{
     margin-top: -3rem;
     box-sizing: 0rem;
 }
-.navbar {
+.navBar {
     width: 100%;
     background-color: $lightPeach;
     overflow: auto;
@@ -14,7 +14,7 @@ html{
     top: 0rem;
   }
   
-.navbar a {
+.navBar a {
     float: left;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
@@ -26,14 +26,19 @@ html{
   }
   
   /* Navbar links on mouse-over */
-  .navbar a:hover {
+  .navBar a:hover {
     background-color: white;
     transition: .4s ease;
   }
   
   /* Current/active navbar link */
-  .active {
+  .home {
     background-color: $darkPeach;
+    border-right: .1rem solid black;
+  }
+
+  .twitter a:hover{
+    background-color: white;
     transition: .4s ease;
   }
   
