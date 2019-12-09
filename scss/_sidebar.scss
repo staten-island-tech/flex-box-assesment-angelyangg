@@ -7,38 +7,38 @@ html{
     box-sizing: 0rem;
 }
 #sideNavBar a {
-  position: absolute; /* Position them relative to the browser window */
-  left: -3rem; 
-  transition: 0.2s; 
+  position: fixed; /* Position them relative to the browser window */
   padding: 2rem;
   width: 12rem; 
-  text-decoration: none; 
+  left: -3rem; 
+  color: black; 
   font-size: 2rem; 
   font-family: 'Roboto Condensed', sans-serif;
+  text-decoration: none; 
   text-align: end;
-  color: black; 
-  border-radius: 0 1rem 1rem 0; /* Rounded corners on the top right and bottom right side */
+  border-radius: 0 1rem 1rem 0;
+  transition: 0.2s; 
 }
 
 #sideNavBar a:hover {
   left: 0; /* On mouse-over, make the elements appear as they should */
 }
 #home {
-  top: 1rem;
+  top: 31rem;
   background-color: $lightPeach;
 }
 
 #instagram {
-  top: 8rem;
+  top: 38rem;
   background-color: $darkPeach;
 }
 
 #twitter {
-  top: 15rem;
+  top: 45rem;
   background-color: $lightPeach; 
 }
 
 #youtube {
-  top: 22rem;
+  top: 52rem;
   background-color: $darkPeach;
 }

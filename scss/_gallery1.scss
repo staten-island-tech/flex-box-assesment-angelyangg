@@ -4,6 +4,7 @@ html{
     font-size: 62.5%;
     padding: 0rem;
     margin-top: -3rem;
+    margin-right: 16rem;
     box-sizing: 0rem;
 }
 .row{
@@ -16,19 +17,19 @@ html{
 }
 .image1{
     width: 20%;
-    border: 10px solid white;
+    border: 1rem solid white;
 
 }
 .image2{
     width: 20%;
-    border-top: 10px solid white;
-    border-right: 10px solid white;
-    border-bottom: 10px solid white;
+    border-top: 1rem solid white;
+    border-right: 1rem solid white;
+    border-bottom: 1rem solid white;
 }
 .overlay {
     position: absolute;
     height: 100%;
-    width: 100%;
+    width: 83%;
     opacity: 0;
     transition: .3s ease;
     background-color: $mainPeach;
@@ -40,14 +41,14 @@ html{
   }
   
   .overlay-text {
-    color: black;
-    font-family: 'League Script', cursive;
-    font-size: 20rem;
     position: absolute;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    color: black;
+    font-family: 'League Script', cursive;
+    font-size: 20rem;
     text-align: center;
   }

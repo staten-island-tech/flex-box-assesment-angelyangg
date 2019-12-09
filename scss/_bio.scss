@@ -7,14 +7,14 @@ html{
     box-sizing: 0rem;
 }
 .biography{
-    margin: 6rem;
-    margin-top: 3rem;
-    margin-right: 22rem;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 3rem;
     position: absolute;
     top: 151rem;
-    left: 57rem;
+    left: 52rem;
+    margin: 6rem;
+    margin-top: 3rem;
+    margin-right: 20rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3rem;
     z-index: 2;
 }
 .bio2{
@@ -22,17 +22,17 @@ html{
 }
 .butterflypic{
     position: relative;
-    top: -8rem;
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 16rem;
+    top: -8rem;
     width: 130rem;
-    filter: drop-shadow(5px 5px 5px ($darkPeach));
+    filter: drop-shadow(1rem 1rem 1rem ($darkPeach));
     z-index: 1;
 }
 .signature{
     display: block;
-    margin-left: 90rem;
-    margin-top: -35rem;
+    margin-left: 86rem;
+    margin-top: -30rem;
     opacity: .2;
 }
