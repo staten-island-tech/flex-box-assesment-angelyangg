@@ -11,18 +11,25 @@ html{
     flex-direction: column;
     flex-wrap: wrap;
 }
-.biography{
+.row{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 3rem;
-    z-index: 2;
 }
+.image1{
+    width: 20%;
+    border: 1rem solid white;
+}
+.image2{
+    width: 20%;
+    border-top: 1rem solid white;
+    border-right: 1rem solid white;
+    border-bottom: 1rem solid white;
+}
+
 .leftcolumn{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
 }
 .bw1{
     width: 20%;
@@ -45,6 +52,14 @@ html{
 //     font-size: 3rem;
 //     z-index: 2;
 // }
+.biography{
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3rem;
+    z-index: 2;
+}
 .bio2{
     margin-top: 6rem;
 }
