@@ -7,16 +7,24 @@ html{
     box-sizing: 0rem;
 }
 .biography{
-    position: absolute;
-    top: 151rem;
-    left: 52rem;
-    margin: 6rem;
-    margin-top: 3rem;
-    margin-right: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 3rem;
     z-index: 2;
 }
+// .biography{
+//     position: absolute;
+//     top: 151rem;
+//     left: 52rem;
+//     margin: 6rem;
+//     margin-top: 3rem;
+//     margin-right: 20rem;
+//     font-family: 'Roboto Condensed', sans-serif;
+//     font-size: 3rem;
+//     z-index: 2;
+// }
 .bio2{
     margin-top: 6rem;
 }
