@@ -42,7 +42,33 @@ html{
     border: 1rem solid white;
     order: 4;
 }
-
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: $mainPeach;
+    z-index: 2;
+  }
+  
+  .row:hover .overlay {
+    opacity: .8;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: 'League Script', cursive;
+    font-size: 20rem;
+    text-align: center;
+  }
 .smaller-container { 
     display: flex;
     flex-direction: row-reverse;
@@ -60,11 +86,27 @@ section{
     margin: 4rem;
     margin-top: 0rem;
 }
+.hvr-forward {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-forward:hover, .hvr-forward:focus, .hvr-forward:active {
+    -webkit-transform: translateX(1rem);
+    transform: translateX(1rem);
+  }
 .column{
     display: flex;
     flex-direction: column;
     width: 25rem;
     flex-grow: 2;
+}
+.column:hover{
+    transform: scale(.95);
+    transition-duration: 0.3s;
 }
 .bw1{
     width: 20rem;
